@@ -11,9 +11,9 @@ const Navbar = () => {
           <div className="info-container">
             <p>
               <span>
-                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-phone"></i>
               </span>{" "}
-              2072 Pinnickinick Street, WA 98370
+              +1 888-452-1505
             </p>
             <p>
               <span>

@@ -38,10 +38,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-          i {
+        i {
           color: white;
           margin: 0.5rem;
           font-size: 1.1rem;
+          cursor: pointer;
         }
       }
       .info-container {
@@ -50,7 +51,6 @@
       }
     }
     .nav-menu {
-      
       height: 60%;
       display: flex;
       align-items: center;

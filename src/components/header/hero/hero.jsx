@@ -3,12 +3,16 @@ import "./styles.scss";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="hero-content">
-        <span>MARKETS & RESOURCES</span>
-        <h1>We Take Care Your Business Growth</h1>
-        <button className="btn-quote">Get a Quote</button>
+      <div className="container">
+        <div className="hero-content">
+          <span>MARKETS & RESOURCES</span>
+          <h1>We Take Care Your Business Growth</h1>
+          <button className="btn-quote">Get a Quote</button>
+        </div>
+        <div className="hero-img">
+          <img src="https://webtend.net/demo/html/datapro/assets/img/hero-img1.png" alt="" />
+        </div>
       </div>
-      <div className="hero-img"></div>
     </div>
   );
 };
