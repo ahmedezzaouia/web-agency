@@ -1,12 +1,10 @@
 .hero {
   background: #222429;
-  height: 95vh;
   padding-top: 70px;
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0 50px;
+    justify-content: center;
 
     .hero-content {
       width: 34%;
