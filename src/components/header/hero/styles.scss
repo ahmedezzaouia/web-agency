@@ -1,4 +1,11 @@
 .hero {
-  background: bisque;
+  background: #222429;
   height: 95vh;
+  padding-top: 160px;
+  display: flex;
+
+  .hero-img {
+    height: 50px;
+    width: 300px;
+  }
 }

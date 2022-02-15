@@ -1,8 +1,7 @@
 .navigation-area {
   background-color: #222429;
   height: 160px;
-  width: 100%;
-  position: absolute;
+  width: 100vw;
   display: flex;
   .brand-logo {
     width: 15%;
@@ -94,6 +93,7 @@
 
         &:hover {
           background-color: white;
+          color: #7eb628;
         }
       }
     }
