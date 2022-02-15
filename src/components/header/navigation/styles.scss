@@ -1,7 +1,6 @@
 .navigation-area {
   background-color: #222429;
-  height: 160px;
-  width: 100vw;
+  height: 11rem;
   display: flex;
   .brand-logo {
     width: 15%;
@@ -12,16 +11,18 @@
     border-bottom: 1px solid #f0f4f989;
   }
   .primary-area {
-    width: 85%;
+    width: 100%;
     color: white;
     border-bottom: 1px solid #f0f4f989;
 
     .top-nav {
-      border: 0.5px solid #f0f4f989;
-      width: 100%;
+      height: 40%;
+      border-bottom: 0.5px solid #f0f4f989;
+      border-top: 0.5px solid #f0f4f989;
       height: 40%;
       display: flex;
       justify-content: space-between;
+      padding: 0px 20px;
       p {
         font-family: "Rubik", sans-serif;
         font-size: 15px;
@@ -37,8 +38,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 15%;
-        i {
+          i {
           color: white;
           margin: 0.5rem;
           font-size: 1.1rem;
@@ -50,8 +50,8 @@
       }
     }
     .nav-menu {
-      width: 100%;
-      height: 70%;
+      
+      height: 60%;
       display: flex;
       align-items: center;
       justify-content: space-between;
