@@ -1,38 +1,99 @@
 .features-container {
   background-color: rgb(223, 149, 255);
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   padding: 6rem 0;
 
   .feature-image {
     background-color: cadetblue;
-    height: 500px;
     width: 50%;
+    position: relative;
+    .image-container {
+      position: absolute;
+      right: 6rem;
+      background-color: #ffaa17;
+      height: 100%;
+      width: 70%;
+      margin: auto;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 90%;
+        height: 90%;
+        margin-top: 5rem;
+        border-radius: 10px;
+      }
+    }
   }
 
   .features-content {
     background-color: chocolate;
-    height: 500px;
     width: 50%;
+    display: flex;
+    justify-content: start;
+    .container {
+      width: 80%;
+      background-color: chartreuse;
+      padding: 7rem 1rem;
 
-    span {
-      text-transform: uppercase;
-      font-weight: 500;
-      letter-spacing: 2px;
-      margin-bottom: 10px;
-      color: #ffaa17;
-    }
-    h2 {
-      font-size: 40px;
-      margin-bottom: 0;
-      font-weight: 700;
-      margin: 0px;
-    }
-    p {
-      margin-bottom: 30px;
-      margin: 0px;
-      padding: 0px;
+      span {
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color: #ffaa17;
+      }
+      h2 {
+        font-size: 38px;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+      .featuur-para {
+        margin-bottom: 30px;
+        margin: 0px;
+        padding: 0px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+
+      .feature-item {
+        display: flex;
+        margin-top: 3rem;
+        .check-box {
+          min-width: 60px;
+          max-width: 60px;
+          height: 60px;
+          background-color: #ffaa17;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          place-content: center;
+          border-radius: 5px;
+          margin-right: 24px;
+          font-size: 24px;
+        }
+        .feature-item-content {
+          h5 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-family: "Rajdhani", sans-serif;
+            font-weight: 700;
+            margin: 0px;
+          }
+
+          p {
+            margin-bottom: 30px;
+            margin: 0px;
+            padding: 0px;
+            font-size: 1rem;
+          }
+        }
+      }
     }
   }
 }
