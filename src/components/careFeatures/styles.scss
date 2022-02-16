@@ -1,6 +1,6 @@
 .features-container {
   // background-color: rgb(223, 149, 255);
-  width: 70%;
+  width: 80%;
   margin: auto;
   display: flex;
   padding: 6rem 0;
@@ -11,7 +11,7 @@
     position: relative;
     .image-container {
       position: absolute;
-      right: 6rem;
+      right: 5rem;
       background-color: #7eb628;
       height: 100%;
       width: 70%;
@@ -37,7 +37,7 @@
     .container {
       width: 80%;
       // background-color: chartreuse;
-      padding: 7rem 1rem;
+      padding: 2rem 3rem;
 
       span {
         text-transform: uppercase;
@@ -54,7 +54,7 @@
         margin-bottom: 30px;
         margin: 0px;
         padding: 0px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 2rem;
       }
 
