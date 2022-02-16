@@ -1,18 +1,18 @@
 .features-container {
-  background-color: rgb(223, 149, 255);
+  // background-color: rgb(223, 149, 255);
   width: 70%;
   margin: auto;
   display: flex;
   padding: 6rem 0;
 
   .feature-image {
-    background-color: cadetblue;
+    // background-color: cadetblue;
     width: 50%;
     position: relative;
     .image-container {
       position: absolute;
       right: 6rem;
-      background-color: #ffaa17;
+      background-color: #7eb628;
       height: 100%;
       width: 70%;
       margin: auto;
@@ -30,20 +30,20 @@
   }
 
   .features-content {
-    background-color: chocolate;
+    // background-color: chocolate;
     width: 50%;
     display: flex;
     justify-content: start;
     .container {
       width: 80%;
-      background-color: chartreuse;
+      // background-color: chartreuse;
       padding: 7rem 1rem;
 
       span {
         text-transform: uppercase;
         font-weight: 500;
         letter-spacing: 2px;
-        color: #ffaa17;
+        color: #7eb628;
       }
       h2 {
         font-size: 38px;
@@ -60,12 +60,15 @@
 
       .feature-item {
         display: flex;
+        align-items: center;
         margin-top: 3rem;
+        // background-color: aquamarine;
+
         .check-box {
           min-width: 60px;
           max-width: 60px;
           height: 60px;
-          background-color: #ffaa17;
+          background-color: #7eb628;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -80,17 +83,15 @@
         .feature-item-content {
           h5 {
             font-size: 20px;
-            margin-bottom: 10px;
             font-family: "Rajdhani", sans-serif;
             font-weight: 700;
-            margin: 0px;
+            margin: 0;
+            margin-bottom: 0.3rem;
           }
 
           p {
-            margin-bottom: 30px;
-            margin: 0px;
-            padding: 0px;
             font-size: 1rem;
+            margin: 0;
           }
         }
       }
