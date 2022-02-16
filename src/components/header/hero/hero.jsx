@@ -10,7 +10,7 @@ const Hero = () => {
           <button className="btn-quote">Get a Quote</button>
         </div>
         <div className="hero-img">
-          <img src="https://webtend.net/demo/html/datapro/assets/img/hero-img1.png" alt="" />
+          <img src="./images/hero2.png" alt="" />
         </div>
       </div>
     </div>
