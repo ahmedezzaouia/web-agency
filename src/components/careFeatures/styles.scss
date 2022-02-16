@@ -1,0 +1,38 @@
+.features-container {
+  background-color: rgb(223, 149, 255);
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 6rem 0;
+
+  .feature-image {
+    background-color: cadetblue;
+    height: 500px;
+    width: 50%;
+  }
+
+  .features-content {
+    background-color: chocolate;
+    height: 500px;
+    width: 50%;
+
+    span {
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      color: #ffaa17;
+    }
+    h2 {
+      font-size: 40px;
+      margin-bottom: 0;
+      font-weight: 700;
+      margin: 0px;
+    }
+    p {
+      margin-bottom: 30px;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+}

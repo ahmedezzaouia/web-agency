@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./styles.scss";
 const Navbar = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  console.log("width", width);
+  useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleWindowResize);
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
+
   return (
     <div className="navigation-area">
       <div className="brand-logo">
