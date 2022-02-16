@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="navigation-area">
       <div className="brand-logo">
-        <img src="./images/main-logo.png" alt="brand logo" />
+        <img style={{ width: "80%", height: "80%" }} src="./images/logo.png" alt="brand logo" />
       </div>
       <div className="primary-area">
         <div className="top-nav">
